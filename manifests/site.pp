@@ -13,7 +13,7 @@ node /^web/ {
 node /^db/ {
   include role::db_server
   }
-  
-  node 'master.puppet.vm' {
+ 
+node 'master.puppet.vm' {
   include role::master_server
 }
