@@ -1,0 +1,4 @@
+class role::chelo {
+  include profile::base
+  include pofile::agent_nodes
+  }
