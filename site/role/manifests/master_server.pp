@@ -1,4 +1,4 @@
-class role::chelo {
-  include profile::base
+class role::master_server {
+  include profile::base 
   include profile::agent_nodes
   }
